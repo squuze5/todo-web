@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1250px;
+  margin: auto;
+}
+
+.navigation {
+  align-items: flex-end;
+}
+
+/* Main page */
+
+.main-content {
+  text-align: center;
+  font-family: "Fira Sans", sans-serif;
+  color: #222;
+
+  span {
+    color: #7a7a7a;
+    font-size: 16px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+  }
+
+  h3 {
+    font-size: 38px;
+    font-weight: 500;
+  }
+
+  p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #7a7a7a;
+    line-height: 1.1;
+  }
+}
+
+.projects-list {
+  margin-top: 40px;
+  display: flex;
+
+  .project {
+    margin: 0 30px;
+
+    .btn-project {
+      border: 1px solid #f50057;
+      border-radius: 25px;
+      padding: 25px 32px;
+      background: #f50057;
+      color: #fff;
+      font-weight: 900;
+    }
+
+    .btn-project:hover {
+      border-radius: 50px;
+      background: #e20150;
+    }
+
+    p {
+      margin-top: 10px;
+    }
+  }
+
+  .btn-add {
+    margin: 0 30px;
+    display: flex;
+    flex-direction: column;
+
+    .add-project {
+      border: 1px solid #7a7a7a;
+      border-radius: 25px;
+      padding: 25px;
+    }
+
+    .add-project:hover {
+      border-radius: 50px;
+      background: transparent;
+    }
+
+    p {
+      margin-top: 10px;
+    }
+  }
+}
+
+/* Login page */
+
+.header-login {
+  text-align: center;
+
+  h3 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #e20150;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+  }
+
+  p {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 300;
+  }
+}
+
+.body-login form {
+  text-align: center;
+  padding: 30px 0;
+}
